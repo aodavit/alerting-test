@@ -22,6 +22,14 @@
             "src/functions_include.php"
         ]
     },
+     "autoload": {
+        "psr-4": {
+            "Alerting\\": "./"
+        },
+        "files": [
+            "index.php"
+        ]
+    },
     "autoload-dev": {
         "psr-4": {
             "Alerting\\": "."
