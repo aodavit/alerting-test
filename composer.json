@@ -1,0 +1,30 @@
+{
+    "name": "aodavit/alerting-test",
+    "description": "alerting-test",
+    "keywords": [
+     
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davit",           
+        },
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+     
+    },    
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp\\": "src/"
+        },
+        "files": [
+            "src/functions_include.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alerting\\": "."
+        }
+    }
+}
